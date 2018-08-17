@@ -47,7 +47,7 @@ ul, li {
 #content .charector {
   width: 151px;
   height: 291px;
-  background: url(http://img.mukewang.com/55ade248000198ae10550582.png) 0px -291px no-repeat;
+  background: url("images/boy.png") 0px -291px no-repeat;
   position: absolute;
   left: 6%;
   top: 55%;
