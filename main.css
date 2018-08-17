@@ -1,0 +1,849 @@
+* {
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+#content .content-wrap {
+  position: relative;
+}
+#content .content-wrap > li {
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+#content .content-wrap .a_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#content .content-wrap .a_background_top {
+  width: 100%;
+  height: 71.6%;
+  background-image: url("http://img.mukewang.com/55addf6900019d8f14410645.png");
+  background-size: 100% 100%;
+}
+#content .content-wrap .a_background_middle {
+  width: 100%;
+  height: 13.1%;
+  background-image: url("http://img.mukewang.com/55addf800001ff2e14410118.png");
+  background-size: 100% 100%;
+}
+#content .content-wrap .a_background_bottom {
+  width: 100%;
+  height: 15.3%;
+  background-image: url("http://img.mukewang.com/55addfcb000189b314410138.png");
+  background-size: 100% 100%;
+}
+#content .charector {
+  width: 151px;
+  height: 291px;
+  background: url(http://img.mukewang.com/55ade248000198ae10550582.png) 0px -291px no-repeat;
+  position: absolute;
+  left: 6%;
+  top: 55%;
+}
+#content button {
+  width: 100px;
+  height: 50px;
+}
+#content .button {
+  position: absolute;
+  bottom: 0;
+}
+.slowWalk {
+  animation: person-slow 950ms steps(1, start) infinite;
+  -webkit-animation: person-slow 950ms steps(1, start) infinite;
+  -moz-animation: person-slow 950ms steps(1, start) infinite;
+}
+@keyframes person-slow {
+  0% {
+    background-position: -0px -291px;
+  }
+  25% {
+    background-position: -602px -0px;
+  }
+  50% {
+    background-position: -302px -291px;
+  }
+  75% {
+    background-position: -151px -291px;
+  }
+  100% {
+    background-position: -0px -291px;
+  }
+}
+@-webkit-keyframes person-slow {
+  0% {
+    background-position: -0px -291px;
+  }
+  25% {
+    background-position: -602px -0px;
+  }
+  50% {
+    background-position: -302px -291px;
+  }
+  75% {
+    background-position: -151px -291px;
+  }
+  100% {
+    background-position: -0px -291px;
+  }
+}
+@-moz-keyframes person-slow {
+  0% {
+    background-position: -0px -291px;
+  }
+  25% {
+    background-position: -602px -0px;
+  }
+  50% {
+    background-position: -302px -291px;
+  }
+  75% {
+    background-position: -151px -291px;
+  }
+  100% {
+    background-position: -0px -291px;
+  }
+}
+.slowFlolerWalk {
+  animation: person-floler-slow 950ms step-start infinite;
+  -webkit-animation: person-floler-slow 950ms step-start infinite;
+  -moz-animation: person-floler-slow 950ms step-start infinite;
+}
+@keyframes person-floler-slow {
+  0% {
+    background-position: -453px -0px;
+  }
+  25% {
+    background-position: -904px -0px;
+  }
+  50% {
+    background-position: -451px -0px;
+  }
+  75% {
+    background-position: -753px -0px;
+  }
+  100% {
+    background-position: -300px -0px;
+  }
+}
+@-webkit-keyframes person-floler-slow {
+  0% {
+    background-position: -453px -0px;
+  }
+  25% {
+    background-position: -904px -0px;
+  }
+  50% {
+    background-position: -451px -0px;
+  }
+  75% {
+    background-position: -753px -0px;
+  }
+  100% {
+    background-position: -300px -0px;
+  }
+}
+@-moz-keyframes person-floler-slow {
+  0% {
+    background-position: -453px -0px;
+  }
+  25% {
+    background-position: -904px -0px;
+  }
+  50% {
+    background-position: -451px -0px;
+  }
+  75% {
+    background-position: -753px -0px;
+  }
+  100% {
+    background-position: -300px -0px;
+  }
+}
+.pauseWalk {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+}
+#content #sun {
+  background: url("http://img.mukewang.com/55ade004000106c202010201.png") no-repeat;
+  position: absolute;
+  z-index: 1;
+  top: -30px;
+  height: 201px;
+  width: 201px;
+  right: 40%;
+}
+#content .rotation {
+  animation-name: rotation;
+  animation-duration: 30s;
+  -webkit-animation-name: rotation;
+  -webkit-animation-duration: 30s;
+  -moz-animation-name: rotation;
+  -moz-animation-duration: 30s;
+}
+@keyframes rotation {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-2000px) translateY(400px);
+  }
+}
+@-webkit-keyframes rotation {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-2000px) translateY(400px);
+  }
+}
+@-moz-keyframes rotation {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    transform: translateX(-2000px) translateY(400px);
+  }
+}
+#content .cloud {
+  z-index: 2;
+  position: absolute;
+}
+#content .cloud1 {
+  width: 181px;
+  height: 101px;
+  left: -5%;
+  top: 15%;
+  background: url("http://img.mukewang.com/55addfde0001aec501810101.png");
+}
+#content .cloud2 {
+  width: 301px;
+  height: 140px;
+  right: -5%;
+  background: url("http://img.mukewang.com/55addff500016df503010140.png");
+}
+#content .cloud1Anim {
+  animation-name: smallCloud;
+  animation-duration: 30s;
+  -webkit-animation-name: smallCloud;
+  -webkit-animation-duration: 30s;
+  -moz-animation-name: smallCloud;
+  -moz-animation-duration: 30s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+}
+#content .cloud2Anim {
+  animation-name: largeCloud;
+  animation-duration: 60s;
+  -webkit-animation-name: largeCloud;
+  -webkit-animation-duration: 60s;
+  -moz-animation-name: largeCloud;
+  -moz-animation-duration: 60s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+}
+@keyframes smallCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+@-webkit-keyframes smallCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+@-moz-keyframes smallCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+@keyframes largeCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+@-webkit-keyframes largeCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+@-moz-keyframes largeCloud {
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+#content .b_background {
+  width: 100%;
+  height: 100%;
+  background-image: url("http://img.mukewang.com/55ade06f00015a0d14410901.png");
+  background-size: 100% 100%;
+  position: absolute;
+}
+#content .b_background_preload {
+  background: url("http://img.mukewang.com/55ade0be0001a37914410901.png") no-repeat -9999px -9999px;
+}
+#content .lamp-bright {
+  background-image: url("http://img.mukewang.com/55ade0be0001a37914410901.png");
+}
+#content .shop {
+  width: 39.5%;
+  height: 35.5%;
+  position: absolute;
+  left: 29%;
+  top: 36.5%;
+}
+#content .door {
+  position: absolute;
+  width: 32%;
+  height: 100%;
+  top: 32%;
+  height: 68%;
+  overflow: hidden;
+  left: 58.5%;
+}
+#content .door-left,
+#content .door-right {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+#content .door-left {
+  left: 0%;
+  background: url(http://img.mukewang.com/55ade1140001050d00910231.png);
+  background-size: 100% 100%;
+}
+#content .door-right {
+  left: 50%;
+  background: url(http://img.mukewang.com/55ade12100019f5b00910231.png);
+  background-size: 100% 100%;
+}
+#content .bird {
+  min-width: 91px;
+  min-height: 71px;
+  top: 10%;
+  position: absolute;
+  z-index: 10;
+  right: -91px;
+  background: url(images/bird.png) -182px 0px no-repeat;
+}
+#content .birdFly {
+  animation: bird-slow 400ms step-start infinite;
+  -webkit-animation: bird-slow 400ms step-start infinite;
+  -moz-animation: bird-slow 400ms step-start infinite;
+}
+@keyframes bird-slow {
+  0% {
+    background-position: -182px 0px;
+  }
+  50% {
+    background-position: 0px 0px;
+  }
+  75% {
+    background-position: -91px 0px;
+  }
+  100% {
+    background-position: -182px 0px;
+  }
+}
+@-webkit-keyframes bird-slow {
+  0% {
+    background-position: -182px 0px;
+  }
+  50% {
+    background-position: 0px 0px;
+  }
+  75% {
+    background-position: -91px 0px;
+  }
+  100% {
+    background-position: -182px 0px;
+  }
+}
+@-moz-keyframes bird-slow {
+  0% {
+    background-position: -182px 0px;
+  }
+  50% {
+    background-position: 0px 0px;
+  }
+  75% {
+    background-position: -91px 0px;
+  }
+  100% {
+    background-position: -182px 0px;
+  }
+}
+.c_background {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.c_background_top {
+  width: 100%;
+  height: 71.6%;
+  background: url("http://img.mukewang.com/55ade19b0001d92c14410645.png");
+  background-size: 100% 100%;
+}
+
+.c_background_middle {
+  width: 100%;
+  height: 13.1%;
+  background: url("http://img.mukewang.com/55ade1b3000135c114410118.png");
+  background-size: 100% 100%;
+}
+
+.c_background_bottom {
+  width: 100%;
+  height: 15.3%;
+  background: url("http://img.mukewang.com/55ade1c30001db5d14410138.png");
+  background-size: 100% 100%;
+}
+
+.girl {
+  background: url(http://img.mukewang.com/55ade30d000100dc10570291.png) -755px 0px no-repeat;
+  position: absolute;
+  width: 151px;
+  height: 291px;
+}
+
+.bridge-bottom {
+  position: absolute;
+  width: 41%;
+  height: 24%;
+  left: 29.5%;
+  top: 76%;
+  overflow: hidden;
+}
+
+.water {
+  width: 100%;
+  height: 100%;
+}
+
+.water_1,
+.water_2,
+.water_3,
+.water_4 {
+  width: 100%;
+  position: absolute;
+  height: 50%;
+  animation: shake 40s linear infinite alternate;
+  -webkit-animation: shake 40s linear infinite alternate;
+  -moz-animation: shake 40s linear infinite alternate;
+}
+
+.water_1 {
+  width: 131px;
+  height: 15px;
+  top: 13%;
+  left: 35%;
+  background: url(http://img.mukewang.com/55ade1e000010f2908540027.png) -261px 0px no-repeat;
+}
+
+.water_2 {
+  width: 161px;
+  height: 9px;
+  top: 30%;
+  left: 45%;
+  background: url(http://img.mukewang.com/55ade1e000010f2908540027.png) -693px 0px no-repeat;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+.water_3 {
+  width: 261px;
+  height: 29px;
+  top: 50%;
+  left: 15%;
+  background: url(http://img.mukewang.com/55ade1e000010f2908540027.png) 0px 0px no-repeat;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+}
+
+.water_4 {
+  width: 301px;
+  height: 12px;
+  top: 75%;
+  left: 30%;
+  background: url(http://img.mukewang.com/55ade1e000010f2908540027.png) -392px 0px no-repeat;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+}
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-30px, 0px, 0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(30px, 0px, 0);
+  }
+}
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-30px, 0px, 0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(30px, 0px, 0);
+  }
+}
+@-moz-keyframes shake {
+  0%, 100% {
+    -moz-transform: translate3d(0, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -moz-transform: translate3d(-30px, 0px, 0);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -moz-transform: translate3d(30px, 0px, 0);
+  }
+}
+.stars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.stars > li {
+  position: absolute;
+  width: 30px;
+  height: 31px;
+  background-image: url("http://img.mukewang.com/55ade1fe00016b8900300031.png") no-repeat;
+  animation: flash 5s ease-in-out  infinite alternate;
+  -webkit-animation: flash 5s ease-in-out  infinite alternate;
+  -moz-animation: flash 5s ease-in-out  infinite alternate;
+}
+
+.stars1 {
+  top: 20%;
+  left: 30%;
+}
+
+.stars2 {
+  top: 15%;
+  left: 20%;
+}
+
+.stars3 {
+  top: 25%;
+  left: 85%;
+}
+
+.stars4 {
+  top: 30%;
+  left: 70%;
+}
+
+.stars5 {
+  top: 25%;
+  left: 20%;
+}
+
+.stars6 {
+  top: 10%;
+  left: 65%;
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+.boyOriginal {
+  background-position: -150px -0px;
+}
+
+.boy-rotate {
+  animation: boy-rotate 850ms step-start 1 forwards;
+  -webkit-animation: boy-rotate 850ms step-start 1 forwards;
+  -moz-animation: boy-rotate 850ms step-start 1 forwards;
+}
+
+@keyframes boy-rotate {
+  0% {
+    background-position: -603px -291px;
+  }
+  16.7% {
+    background-position: -150px -0px;
+  }
+  33.4% {
+    background-position: -453px -291px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -903px -291px;
+  }
+  83.5% {
+    background-position: -753px -291px;
+  }
+  100% {
+    background-position: -603px -291px;
+  }
+}
+@-webkit-keyframes boy-rotate {
+  0% {
+    background-position: -603px -291px;
+  }
+  16.7% {
+    background-position: -150px -0px;
+  }
+  33.4% {
+    background-position: -453px -291px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -903px -291px;
+  }
+  83.5% {
+    background-position: -753px -291px;
+  }
+  100% {
+    background-position: -603px -291px;
+  }
+}
+@-moz-keyframes boy-rotate {
+  0% {
+    /*background-position: -603px -291px;*/
+  }
+  16.7% {
+    background-position: -150px -0px;
+  }
+  33.4% {
+    background-position: -453px -291px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -903px -291px;
+  }
+  83.5% {
+    background-position: -753px -291px;
+  }
+  100% {
+    background-position: -603px -291px;
+  }
+}
+.girl-rotate {
+  animation: girl-rotate 850ms step-start 1 forwards;
+  -webkit-animation: girl-rotate 850ms step-start 1 forwards;
+  -moz-animation: girl-rotate 850ms step-start 1 forwards;
+}
+
+@keyframes girl-rotate {
+  0% {
+    background-position: -604px -0px;
+  }
+  16.7% {
+    background-position: -151px -0px;
+  }
+  33.4% {
+    background-position: -906px -0px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -302px -0px;
+  }
+  83.5% {
+    background-position: -453px -0px;
+  }
+  100% {
+    background-position: -604px -0px;
+  }
+}
+@-webkit-keyframes girl-rotate {
+  0% {
+    background-position: -604px -0px;
+  }
+  16.7% {
+    background-position: -151px -0px;
+  }
+  33.4% {
+    background-position: -906px -0px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -302px -0px;
+  }
+  83.5% {
+    background-position: -453px -0px;
+  }
+  100% {
+    background-position: -604px -0px;
+  }
+}
+@-moz-keyframes girl-rotate {
+  0% {
+    /*background-position: -604px -0px;*/
+  }
+  16.7% {
+    background-position: -151px -0px;
+  }
+  33.4% {
+    background-position: -906px -0px;
+  }
+  50.1% {
+    background-position: -0px -0px;
+  }
+  66.8% {
+    background-position: -302px -0px;
+  }
+  83.5% {
+    background-position: -453px -0px;
+  }
+  100% {
+    background-position: -604px -0px;
+  }
+}
+#snowflake {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.snowRoll {
+  height: 80px;
+  position: absolute;
+  opacity: 0;
+  animation: mysnow 20s;
+  -webkit-animation: mysnow 20s;
+  -moz-animation: mysnow 20s;
+}
+
+@keyframes mysnow {
+  0% {
+    bottom: 100%;
+  }
+  50% {
+    -webkit-transform: rotate(1080deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translate3d(50px, 50px, 50px);
+  }
+}
+@-webkit-keyframes mysnow {
+  0% {
+    bottom: 100%;
+  }
+  50% {
+    -webkit-transform: rotate(1080deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translate3d(50px, 50px, 50px);
+  }
+}
+@-moz-keyframes mysnow {
+  0% {
+    bottom: 100%;
+  }
+  50% {
+    -moz-transform: rotate(1080deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg) translate3d(50px, 50px, 50px);
+  }
+}
+@media (max-width: 767px) {
+  #content {
+    width: 500px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
